@@ -66,10 +66,9 @@ a {
     color: inherit;
 }
 
-hr {
-    border-style: solid;
-    border-width: 3px;
-}
+/******************************
+Classes used in navbar header
+******************************/
 
 .navBar {
     width: 960px;
@@ -121,6 +120,10 @@ hr {
 
 }
 
+/*********************************
+Classes used in main page bodies 
+*********************************/
+
 .mainContent {
     flex: 1 0 auto;
     overflow: hidden;
@@ -137,6 +140,16 @@ hr {
     width: calc(960px - 2 * 25px);
 
     background: #ffffff;
+}
+
+/* div-based horizontal rule effect */
+.hRule {
+    border-top-style: solid;
+    border-top-width: 2px;
+
+    margin: 10px 0;
+
+    color: #cccccc;
 }
 
 .headshot {
