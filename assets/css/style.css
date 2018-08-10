@@ -97,15 +97,16 @@ Classes used in navbar header
 .navButtons {
     overflow: hidden;
     float: right;
-    /* width: 450px; */
+    padding-top: 8px;
+    padding-bottom: 6px;
 }
 .navLink {
     display: inline-block;
 
     height: 20px;
-    width: 60px;
+    /* width: 60px; */
 
-    padding: 20px;
+    padding: 20px 5px;
 
     text-align: center;  
 }
