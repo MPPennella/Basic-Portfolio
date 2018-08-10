@@ -161,7 +161,48 @@ Classes used in main page bodies
     color: #dddddd;
 }
 
+/***************************************
+ * Classes used in index.html (About Me)
+ ***************************************/
 .headshot {
     float: left;
     margin-right: 20px;
 }
+
+/*********************************
+ * Classes used in portfolio.html
+ *********************************/
+
+ .portImgContainer {
+    display: inline-block;
+    position: relative;
+
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+ .portImg {
+    /* margin:0; */
+    /* padding:0; */
+
+
+ }
+
+ .imgLabel {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+
+    padding: 10px;
+    width: calc(100% - 2 * 10px);
+
+    background: #4aaaa5;
+
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+ }
+
+/******************************
+ * Classes used in contact.html
+ ******************************/
