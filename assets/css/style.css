@@ -31,28 +31,6 @@ header {
 
 }
 
-footer {
-    flex-shrink: 0;
-
-    width: 100%;
-
-    margin: 0;
-    margin-top: 80px;
-
-    border-top-style: solid;
-    border-color: #4aaaa5;
-    border-top-width: 5px;
-
-    padding: 25px 0 10px;
-
-    /* height: 75px; */
-
-    background: #666666;
-
-    text-align: center;
-    font-size: 10px;
-    color: white;
-}
 
 h1 {
     font-family: "Georgia", Times, "Times New Roman", serif;
@@ -91,9 +69,8 @@ Classes used in navbar header
 .nameplate {
     float: left;
     margin: 0;
-    background: #4aaaa5;
-
     padding: 25px;
+    background: #4aaaa5;
 
     color: #ffffff;
     font-size: 24px;
@@ -107,12 +84,8 @@ Classes used in navbar header
 }
 .navLink {
     display: inline-block;
-
     height: 20px;
-    /* width: 60px; */
-
     padding: 20px 5px;
-
     text-align: center;  
 }
 
@@ -166,6 +139,32 @@ Classes used in main page bodies
     color: #dddddd;
 }
 
+/**************************
+ * Classes used in footer *
+ **************************/
+
+.copyrightInfo {
+    flex-shrink: 0;
+
+    width: 100%;
+
+    margin: 0;
+    margin-top: 80px;
+
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-top-width: 5px;
+
+    padding: 25px 0 10px;
+
+    background: #666666;
+
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+
 /***************************************
  * Classes used in index.html (About Me)
  ***************************************/
@@ -186,14 +185,12 @@ Classes used in main page bodies
     margin-bottom: 25px;
 }
 
- .portImg {
-    /* margin:0; */
-    /* padding:0; */
+/* Ended up not styling this class */
+/* .portImg {
 
+} */
 
- }
-
- .imgLabel {
+.imgLabel {
     position: absolute;
     left: 0px;
     bottom: 10px;
@@ -206,7 +203,7 @@ Classes used in main page bodies
     color: #ffffff;
     font-size: 20px;
     text-align: center;
- }
+}
 
 /******************************
  * Classes used in contact.html
