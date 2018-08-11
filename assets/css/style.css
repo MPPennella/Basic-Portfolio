@@ -61,7 +61,7 @@ h1 {
     font-weight: bold;
 }
 
-p, a {
+p, a, form {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 14px;
 }
@@ -206,3 +206,24 @@ Classes used in main page bodies
 /******************************
  * Classes used in contact.html
  ******************************/
+
+.nameField {
+    width: 100%;
+}
+
+.emailField {
+    width: 100%;
+}
+
+.messageField {
+    width: 100%;
+}
+
+.submitButton {
+    border-style: none;
+    padding: 5px 15px;
+
+    background: #4aaaa5;
+
+    color: #ffffff;
+}
