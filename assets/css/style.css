@@ -231,6 +231,10 @@ Classes used in main page bodies
     color: #ffffff;
 }
 
+.submitButton:hover {
+    background: #66ddcc;
+}
+
 input, textarea {
     box-sizing: border-box;
     margin: 10px 0 20px;
