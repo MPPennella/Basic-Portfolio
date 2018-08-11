@@ -120,7 +120,7 @@ Classes used in navbar header
 
 .separator {
     display: inline-block;
-    height: 20px;
+    height: 14px;
     width: 0px;
 
     border-left-style: solid;
